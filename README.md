@@ -1,0 +1,1 @@
+# osgi-sample-with-maven
