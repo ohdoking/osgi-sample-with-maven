@@ -4,13 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>osgi-sample-with-maven</artifactId>
+    <groupId>com.ohdoking</groupId>
+    <artifactId>osgi</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>osgi</name>
+    <packaging>pom</packaging>
 
-    <properties>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
-    </properties>
+    <modules>
+        <module>osgi-intro-sample-activator</module>
+        <module>osgi-intro-sample-service</module>
+        <module>osgi-intro-sample-client</module>
+    </modules>
 
 </project>
